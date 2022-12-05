@@ -65,7 +65,7 @@ export default {
   background-position: center center;
   background-size: cover;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   overflow: hidden;
   margin: 0;
@@ -89,11 +89,11 @@ h2 {
   .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100vh;
+    max-width: 100%;
     margin-inline: auto;
     justify-content: space-evenly;
     align-items: center;
-    column-gap: 1rem;
+    gap: 1rem;
     height: auto;
     margin-top: 3rem;
     
@@ -114,7 +114,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px;
+    width: 200px;
     height: 110px;
 
   }
