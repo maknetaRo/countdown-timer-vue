@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home">    
+    <NewYearsCounter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import NewYearsCounter from '@/components/NewYearsCounter.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    NewYearsCounter
   }
 }
 </script>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+</style>
+
