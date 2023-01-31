@@ -1,7 +1,7 @@
 <template>
   <div class="counter">
    <h1>New Years Day</h1>
-   <h2>Countdown to the year 2023</h2>
+   <h2>Countdown to the year 2024</h2>
     <div class="container">
       <div class="item">
         <p class="number">{{ days }}</p>
@@ -31,7 +31,7 @@ export default {
   name: 'NewYearsCounter',
   setup() {
     
-    const newYearDay = new Date('01/01/2023');
+    const newYearDay = new Date('01/01/2024');
     const now = new Date();
     const days = ref(0);
     const hours = ref(0);
